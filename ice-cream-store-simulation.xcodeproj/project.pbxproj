@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A918C6A4210466FF0054D1BE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A918C6A3210466FF0054D1BE /* main.swift */; };
+		A918C6AB210631CF0054D1BE /* Clerk.swift in Sources */ = {isa = PBXBuildFile; fileRef = A918C6AA210631CF0054D1BE /* Clerk.swift */; };
+		A918C6AD2106A7F20054D1BE /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A918C6AC2106A7F20054D1BE /* Customer.swift */; };
+		A918C6AF2106A88D0054D1BE /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A918C6AE2106A88D0054D1BE /* Manager.swift */; };
+		A918C6B12106A8B00054D1BE /* Cashier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A918C6B02106A8B00054D1BE /* Cashier.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A918C69E210466FF0054D1BE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A918C6A0210466FF0054D1BE /* ice-cream-store-simulation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ice-cream-store-simulation"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A918C6A3210466FF0054D1BE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A918C6AA210631CF0054D1BE /* Clerk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clerk.swift; sourceTree = "<group>"; };
+		A918C6AC2106A7F20054D1BE /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		A918C6AE2106A88D0054D1BE /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		A918C6B02106A8B00054D1BE /* Cashier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cashier.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A918C69D210466FF0054D1BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A918C697210466FF0054D1BE = {
+			isa = PBXGroup;
+			children = (
+				A918C6A2210466FF0054D1BE /* ice-cream-store-simulation */,
+				A918C6A1210466FF0054D1BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A918C6A1210466FF0054D1BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A918C6A0210466FF0054D1BE /* ice-cream-store-simulation */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A918C6A2210466FF0054D1BE /* ice-cream-store-simulation */ = {
+			isa = PBXGroup;
+			children = (
+				A918C6A3210466FF0054D1BE /* main.swift */,
+				A918C6AA210631CF0054D1BE /* Clerk.swift */,
+				A918C6AC2106A7F20054D1BE /* Customer.swift */,
+				A918C6AE2106A88D0054D1BE /* Manager.swift */,
+				A918C6B02106A8B00054D1BE /* Cashier.swift */,
+			);
+			path = "ice-cream-store-simulation";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A918C69F210466FF0054D1BE /* ice-cream-store-simulation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A918C6A7210466FF0054D1BE /* Build configuration list for PBXNativeTarget "ice-cream-store-simulation" */;
+			buildPhases = (
+				A918C69C210466FF0054D1BE /* Sources */,
+				A918C69D210466FF0054D1BE /* Frameworks */,
+				A918C69E210466FF0054D1BE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ice-cream-store-simulation";
+			productName = "ice-cream-store-simulation";
+			productReference = A918C6A0210466FF0054D1BE /* ice-cream-store-simulation */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A918C698210466FF0054D1BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "吴俊演";
+				TargetAttributes = {
+					A918C69F210466FF0054D1BE = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A918C69B210466FF0054D1BE /* Build configuration list for PBXProject "ice-cream-store-simulation" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A918C697210466FF0054D1BE;
+			productRefGroup = A918C6A1210466FF0054D1BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A918C69F210466FF0054D1BE /* ice-cream-store-simulation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A918C69C210466FF0054D1BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A918C6AD2106A7F20054D1BE /* Customer.swift in Sources */,
+				A918C6A4210466FF0054D1BE /* main.swift in Sources */,
+				A918C6AB210631CF0054D1BE /* Clerk.swift in Sources */,
+				A918C6B12106A8B00054D1BE /* Cashier.swift in Sources */,
+				A918C6AF2106A88D0054D1BE /* Manager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A918C6A5210466FF0054D1BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A918C6A6210466FF0054D1BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		A918C6A8210466FF0054D1BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JPGD28C7PA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		A918C6A9210466FF0054D1BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JPGD28C7PA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A918C69B210466FF0054D1BE /* Build configuration list for PBXProject "ice-cream-store-simulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A918C6A5210466FF0054D1BE /* Debug */,
+				A918C6A6210466FF0054D1BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A918C6A7210466FF0054D1BE /* Build configuration list for PBXNativeTarget "ice-cream-store-simulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A918C6A8210466FF0054D1BE /* Debug */,
+				A918C6A9210466FF0054D1BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A918C698210466FF0054D1BE /* Project object */;
+}
