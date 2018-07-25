@@ -22,14 +22,14 @@ var totalCones: UInt32 = 0
 for _ in 1...Global.totalCustomers {
     let customer = Customer()
     totalCones += customer.numConesNeeded
-    customer.run()
+    customer.runAsync()
 }
 
 print("The manager must hold \(totalCones) cones.")
 
 let manager = Manager(totalCones: totalCones)
-manager.work()
-Global.cashier.work()
+manager.workAsync()
+Global.cashier.workAsync()
 
 RunLoop.main.run()
 

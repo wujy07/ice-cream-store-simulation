@@ -9,10 +9,10 @@
 import Foundation
 
 public class Cashier {
-    
+
     let checkoutRequestSemaphore = DispatchSemaphore.init(value: 0)
     let getQueueNumberSemaphore = DispatchSemaphore.init(value: 1)
-    
+
     var number: Int = 0
     var customerSemaphores = [DispatchSemaphore]()
     
@@ -22,19 +22,24 @@ public class Cashier {
             customerSemaphores.append(customerSemaphore)
         }
     }
-    
+
     func checkout(index: Int) {
         print("Cashier is checking out the NO.\(index) customer...")
         sleep(1)
         print("Cashier finished checking out.")
     }
-    
-    func work() {
+
+    @objc
+    private func work() {
         for (index, _) in customerSemaphores.enumerated() {
             checkoutRequestSemaphore.wait()
             checkout(index: index)
             customerSemaphores[index].signal()
         }
         print("All the customer are checked out.")
+    }
+
+    func workAsync() {
+        Thread(target: self, selector: #selector(work), object: nil).start()
     }
 }
